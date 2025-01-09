@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(180, 214, 244);
+}
+
+h1 {
+  color: rgb(244, 132, 40);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(0, 0, 255);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(1, 121, 1);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(252, 14, 14);
+  text-align: center;
+}
+
+pre b {
+  color: rgb(198, 75, 198);
+}
+
+ul li {
+  width: fit-content;
+  text-align: center;
+}
+
+form, input, p {
+  text-align: center;
+}
