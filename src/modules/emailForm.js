@@ -1,4 +1,5 @@
-import { output } from "../utills/output"; 
+import { output } from "../utills/output.js";
+import { React } from "react.js"
 
 export function emailForm(event) {
 event.preventDefault();
