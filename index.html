@@ -7,7 +7,7 @@
     <link href="index.css" rel="stylesheet">
     <script src="./src/Views/index.js" type="modules"></script>
     <script src="./src/Views/ReactLandingPage.js" type="modules"></script>
-    <script src="utility-function.js" type="modules"></script>
+    
 </head>
 
 <body>
@@ -49,7 +49,7 @@
 
              <h2 class="fst-italic fw-bold">Join Now</h2>
              <pre>Join our email list and receive a exlusive <b>20% off</b> on your first purchase. <pre>
-          <form onClick="handleEmailForm">
+          <form onsubmit="handleEmailForm(event)">
            <input required name="email" type="email" placeholder="Email" id="email" /> 
            <input type="submit" value="Submit"
           </form>
