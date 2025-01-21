@@ -1,3 +1,5 @@
+import { output } from "./utills";
+
 export function output(
     message = "",
     outputTag = "outputTag",

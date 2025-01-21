@@ -5,85 +5,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet">
-    <script src="./src/Views/index.js" type="modules"></script>
-    <script src="./src/Views/ReactLandingPage.js" type="modules"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="./dist/main.js" defer></script>
     
 </head>
 
-<body>
-   <heading>
-    <h1>Instant Pot Duo Plus</h1>
-   </heading>
-    <main class="container">
-
-        <h3 class="fst-italic fw-bold">Description</h3>
-          <p>
-            Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one.
-            It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options.
-            It has 15 Smart Programs to help you get started quickly and easily.
-            With a redesigned control panel, you see cooking status at-a-glance, and easily control every step.
-          </p>   
-            <br>
-        <h4 class="fst-italic fw-bold">Features</h3> 
-         <ul class="list-group list-group-flush">
-           <li class list-group-item>Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, sauté, and keep warm</li> 
-           <li class list-group-item>One-touch Keep Warm program keeps food ready for serving on your schedule</li>
-           <li class list-group-item>15 customizable Smart Programs for quick one-touch cooking: pressure cook, soup, broth, cake, egg, slow cook, sauté, rice, bean, grain, porridge, oatmeal, sterilize, yogurt and sous vide</li>
-           <li class list-group-item>Digital display and controls: Easy-to-use interface with customizable programs for different types of food</li> 
-           <li class list-group-item>Contemporary black-on-white display is easy-to-read, shows full cooking progress and includes dedicated Start button</li>
-           <li class list-group-item>Separate Pressure and Temperature indicators to view at-a-glance, plus dual Fahrenheit and Celsius indicators</li>
-           <li class list-group-item>Steel inner pot: Dishwasher-safe pot with a tri-ply bottom for even heat distribution</li> 
-           <li class list-group-item>Easy-close lid automatically seals when the lid is closed</li>
-           <li class list-group-item>Stainless-steel (18/8) inner pot with tri-ply bottom for perfect sautéing</li>
-           <li class list-group-item>Intuitive remote steam release button makes venting simple and stress-free, plus automatically resets when lid is closed</li>
-           <li class list-group-item>Quick release valve: Allows for rapid steam release when needed</li> 
-           <li class list-group-item>Safety features: Includes safety locking lid, pressure release mechanisms, and overheat protection</li> 
-           <li class list-group-item>Anti-spin design keeps inner pot in place for easy sautéing</li>
-           <li class list-group-item>Up to 70% faster and more energy efficient than traditional cooking methods</li>
-           <li class list-group-item>10+ proven safety features, including Overheat Protection™ and safe locking lid</li>
-           <li class list-group-item>Dishwasher-safe lid and inner pot for quick and easy clean-up</li>
-           <li class list-group-item>Detachable power cord makes storage easier</li>
-           <li class list-group-item>Accessories: includes 2 sealing rings and stainless-steel steam rack</li>
-        </ul>
-             <hr>
-
-             <h2 class="fst-italic fw-bold">Join Now</h2>
-             <pre>Join our email list and receive a exlusive <b>20% off</b> on your first purchase. <pre>
-          <form onsubmit="handleEmailForm(event)">
-           <input required name="email" type="email" placeholder="Email" id="email" /> 
-           <input type="submit" value="Submit"
-          </form>
-        
-           <br>
-           <hr>
-        
-                <iframe
-                width="560" 
-                height="315"
-                src="https://www.youtube.com/embed/YPfggwCqfVE?si=rCb4ICO_k63BEuAv"
-                title="YouTube video player" 
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowFullScreen>
-                </iframe>
-                <br>
-                <br>
-                <br>
-
-
-        <h2 class="fst-italic fw-bold">Contact Form</h2>
-        <form onsubmit="handleContactForm(event)">
-            <input required name="name" type="name" placeholder="First Name" id="name" />
-            <input required name="name" type="name" placeholder="Last Name" id="name" />
-            <input required name="tel" type="tel" placeholder="###-###-####"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" />
-            <input required name="text" type="text" placeholder="Message" id="text" />
-            
-            <input type="submit" value="Submit" /> 
-         </form>
-         <output id="outputTag"></output>
-    </main>
-    <footer style="text-align: center; "><pre>Website created by <code>Lydia Carter</code></footer> 
-</body>
+<body id="bodyTag"></body>
 
 </html>

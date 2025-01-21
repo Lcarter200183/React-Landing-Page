@@ -1,10 +1,13 @@
-import { output } from "../utills/output.js";
-import { React } from "react.js"
+import { output } from "../utills/output";
+
 
 export function emailForm(event) {
-event.preventDefault();
-const emailForm = event.targert;
-const emailInput = emailForm[0];
-const emailValue = emailInput.value;
-output("hank You, Your info was submitted.");
+    event.preventDefault();
+    const emailForm = event.target;
+    const emailInput = emailForm[0];
+    const emailvalue = emailInput.value;
+    output("Your discount code is GOT20");
+     const promise = makeRequest("https://myServer.com");
+     promise.then(parseResponse);
+     console.log("Your discount code is GOT20"); 
 }

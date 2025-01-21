@@ -1,7 +1,9 @@
-export class unorderedList {
+
+
+export class UnorderedList {
     openingTag = "<ul='list-group-numbered>";
     closingTag = "</ul>";
-    innerHtml = "";
+    innerHTML = "";
 
     toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;

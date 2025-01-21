@@ -1,7 +1,9 @@
-export class listGroupItems {
+
+
+export class ListGroupItems {
     openingTag = "<li='list-group-item>";
     closingTag = "</li>";
-    innerHtml = "";
+    innerHTML = "";
 
     toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
