@@ -1575,102 +1575,117 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _YouTube__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./YouTube */ "./src/Views/YouTube.js");
-/* harmony import */ var _controllers_handleContactForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleContactForm */ "./src/controllers/handleContactForm.js");
-/* harmony import */ var _controllers_handleEmailForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../controllers/handleEmailForm */ "./src/controllers/handleEmailForm.js");
+/* harmony import */ var _controllers_handleContactForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleContactForm */ "./src/controllers/handleContactForm.js");
+/* harmony import */ var _controllers_handleEmailForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleEmailForm */ "./src/controllers/handleEmailForm.js");
 
 
 
-
-const {
-  email,
-  setEmail
-} = react__WEBPACK_IMPORTED_MODULE_0__.useState;
 function ReactLandingPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Instant Pot Duo Plus")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: " fs: italic, fw: bold"
-  }, "Description"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", null, "Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one. It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options. It has 15 Smart Programs to help you get started quickly and easily. With a redesigned control panel, you see cooking status at-a-glance, and easily control every step."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: " fs: italic, fw: bold"
-  }, "Features"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", null, "Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, saut\xE9, and keep warm One-touch Keep Warm program keeps food ready for serving on your schedule 15 customizable Smart Programs for quick one-touch cooking: pressure cook, soup, broth, cake, egg, slow cook, saut\xE9, rice, bean, grain, porridge, oatmeal, sterilize, yogurt and sous vide Digital display and controls: Easy-to-use interface with customizable programs for different types of food Contemporary black-on-white display is easy-to-read, shows full cooking progress and includes dedicated Start button Separate Pressure and Temperature indicators to view at-a-glance, plus dual Fahrenheit and Celsius indicators Steel inner pot: Dishwasher-safe pot with a tri-ply bottom for even heat distribution Easy-close lid automatically seals when the lid is closed Stainless-steel (18/8) inner pot with tri-ply bottom for perfect saut\xE9ing Intuitive remote steam release button makes venting simple and stress-free, plus automatically resets when lid is closed Quick release valve: Allows for rapid steam release when needed Safety features: Includes safety locking lid, pressure release mechanisms, and overheat protection Anti-spin design keeps inner pot in place for easy saut\xE9ing Up to 70% faster and more energy efficient than traditional cooking methods 10+ proven safety features, including Overheat Protection\u2122 and safe locking lid Dishwasher-safe lid and inner pot for quick and easy clean-up Detachable power cord makes storage easier Accessories: includes 2 sealing rings and stainless-steel steam rack"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: " fs: italic, fw: bold"
-  }, "Join Now"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Join our email list and receive a exlusive ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "20% off"), " on your first purchase. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _controllers_handleEmailForm__WEBPACK_IMPORTED_MODULE_3__.handleEmailForm
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  const center = {
+    width: "fit-content",
+    justifySelf: "center"
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Instant Pot Duo Plus"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Description")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one. It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options. It has 15 Smart Programs to help you get started quickly and easily. With a redesigned control panel, you see cooking status at-a-glance, and easily control every step.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Features")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      textAlign: center
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "list-group, list-group-flush"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, saut\xE9, and keep warm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "One-touch Keep Warm program keeps food ready for serving on your schedule."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "15 customizable Smart Programs for quick one-touch cooking: pressure cook, soup, broth, cake, egg, slow cook, saut\xE9, rice, bean, grain, porridge, oatmeal, sterilize, yogurt and sous vide."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Digital display and controls: Easy-to-use interface with customizable programs for different types of food."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Contemporary black-on-white display is easy-to-read, shows full cooking progress and includes dedicated Start button."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Separate Pressure and Temperature indicators to view at-a-glance, plus dual Fahrenheit and Celsius indicators."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Steel inner pot: Dishwasher-safe pot with a tri-ply bottom for even heat distribution."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Easy-close lid automatically seals when the lid is closed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Stainless-steel (18/8) inner pot with tri-ply bottom for perfect saut\xE9ing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Intuitive remote steam release button makes venting simple and stress-free, plus automatically resets when lid is closed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Quick release valve: Allows for rapid steam release when needed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Safety features: Includes safety locking lid, pressure release mechanisms, and overheat protection."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Anti-spin design keeps inner pot in place for easy saut\xE9ing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Up to 70% faster and more energy efficient than traditional cooking methods."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "10+ proven safety features, including Overheat Protection\u2122 and safe locking lid."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Dishwasher-safe lid and inner pot for quick and easy clean-up."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Detachable power cord makes storage easier."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Accessories:includes 2 sealing rings and stainless-steel steam rack."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Join Now")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Join our email list and receive a exlusive ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "20% off"), " on your first purchase."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _controllers_handleEmailForm__WEBPACK_IMPORTED_MODULE_2__.handleEmailForm
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "email",
     type: "email",
     placeholder: "Email",
     id: "email"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "submit",
     value: "Submit"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_YouTube__WEBPACK_IMPORTED_MODULE_1__.YouTube, {
-    src: "https://www.youtube.com/embed/YPfggwCqfVE?si=rCb4ICO_k63BEuAv"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact Form"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _controllers_handleContactForm__WEBPACK_IMPORTED_MODULE_2__.handleContactForm
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: center
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/YPfggwCqfVE?si=rCb4ICO_k63BEuAv",
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    referrerPolicy: "strict-origin-when-cross-origin",
+    allowFullScreen: true
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact Form"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _controllers_handleContactForm__WEBPACK_IMPORTED_MODULE_1__.handleContactForm
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "name",
     type: "name",
     placeholder: "First Name",
     id: "name"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "name",
     type: "name",
     placeholder: "Last Name",
     id: "name"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "tel",
     type: "tel",
     placeholder: "###-###-####",
     pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
     id: "tel"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "text",
     type: "text",
     placeholder: "Message",
     id: "text"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "submit",
     value: "Submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "outputTag"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
-    style: "text-align: center; "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", null, "Website created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "Lydia Carter"))));
-}
-
-/***/ }),
-
-/***/ "./src/Views/YouTube.js":
-/*!******************************!*\
-  !*** ./src/Views/YouTube.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   YouTube: () => (/* binding */ YouTube)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function YouTube(props) {
-  debugger;
-  const src = props.src;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "YouTube"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: src,
-    title: "YouTube video player",
-    frameBorder: "0",
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-    referrerPolicy: "strict-origin-when-cross-origin",
-    allowFullScreen: true
-  }));
+    style: {
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", null, "Website created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Lydia Carter"), " ")));
 }
 
 /***/ }),
@@ -1685,12 +1700,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleContactForm: () => (/* binding */ handleContactForm)
 /* harmony export */ });
-/* harmony import */ var _handleEmailForm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./handleEmailForm */ "./src/controllers/handleEmailForm.js");
-
 function handleContactForm(event = new Event()) {
   event.preventDefault();
   debugger;
-  console.log("Thank You, Your info was Submitted");
+  event.preventDefault();
+  const emailForm = event.target;
+  const emailInput = emailForm[0];
+  const emailvalue = emailInput.value;
+  const promise = makeRequest("https://myServer.com");
+  promise.then(parseResponse);
+  output("Thank You, Your info was Submitted");
 }
 
 /***/ }),
@@ -1707,30 +1726,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function handleEmailForm(event = new Event()) {
   event.preventDefault();
-  console.log("Your discount code is GOT20");
+  const emailForm = event.target;
+  const emailInput = emailForm[0];
+  const emailvalue = emailInput.value;
   output("Your discount code is GOT20");
-}
-function parseResponse(resolveValue) {
-  debugger;
-  const response = JSON.parse(resolveValue);
-  const message = response.message;
-  output(message);
-}
-function getServerResponse(resolve) {
-  debugger;
-  setTimeout(activateResolve, 5000);
-  function activateResolve() {
-    const response = {
-      message: "."
-    };
-    const resolveValue = JSON.stringify(response);
-    resolve(resolveValue);
-  }
-}
-function makeRequest() {
-  debugger;
-  const promise = new Promise(getServerResponse);
-  return promise;
+  const promise = makeRequest("https://myServer.com");
+  promise.then(parseResponse);
+  output("Your discount code is GOT20");
 }
 
 /***/ })

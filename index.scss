@@ -4,7 +4,7 @@ $lightPurple: rgba(198, 75, 198, 1);
 $darkOrange: rgba(244, 132, 40, 1);
 $lightRed: rgba(252, 14, 14, 1);
 $lightAliceBlue: rgba(180, 214, 244, 1);
-;
+ 
 
 
 body { 
@@ -19,11 +19,13 @@ h1 {
 h3 {
     color: $darkBlue;
     text-align: center;
+     
 }
 
 h4 {
     color: $darkGreen;
     text-align: center;
+     
 }
 
 h2 {
@@ -32,20 +34,14 @@ h2 {
 }
 
 pre {
-    b{
-       color: $lightPurple;
+    b {
+        color: $lightPurple;
     }
 }
 
-ul li {
-    width: fit-content;
+form, input, p, pre { 
     text-align: center;
 }
-
-form, input, p {
-    text-align: center;
-}
-
 
 
 
