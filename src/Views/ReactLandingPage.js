@@ -23,7 +23,7 @@ export function ReactLandingPage() {
           
             <br />
         <h4><i>Features</i></h4> 
-           <div style={{textAlign: center}}>
+           <div className="container">
             <ul className="list-group, list-group-flush">
                <li className="list-group-item">Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, sauté, and keep warm.</li>
                <li className="list-group-item">One-touch Keep Warm program keeps food ready for serving on your schedule.</li>

@@ -1586,9 +1586,7 @@ function ReactLandingPage() {
     justifySelf: "center"
   };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Instant Pot Duo Plus"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Description")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one. It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options. It has 15 Smart Programs to help you get started quickly and easily. With a redesigned control panel, you see cooking status at-a-glance, and easily control every step.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Features")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: {
-      textAlign: center
-    }
+    className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "list-group, list-group-flush"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
@@ -1700,16 +1698,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleContactForm: () => (/* binding */ handleContactForm)
 /* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
 function handleContactForm(event = new Event()) {
   event.preventDefault();
-  debugger;
-  event.preventDefault();
-  const emailForm = event.target;
-  const emailInput = emailForm[0];
-  const emailvalue = emailInput.value;
-  const promise = makeRequest("https://myServer.com");
-  promise.then(parseResponse);
-  output("Thank You, Your info was Submitted");
+  return console.log("Thank You, Your info was Submitted!");
 }
 
 /***/ }),
@@ -1724,15 +1718,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleEmailForm: () => (/* binding */ handleEmailForm)
 /* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
 function handleEmailForm(event = new Event()) {
   event.preventDefault();
-  const emailForm = event.target;
-  const emailInput = emailForm[0];
-  const emailvalue = emailInput.value;
-  output("Your discount code is GOT20");
-  const promise = makeRequest("https://myServer.com");
-  promise.then(parseResponse);
-  output("Your discount code is GOT20");
+  return console.log("Your discount code is GOT20");
 }
 
 /***/ })
