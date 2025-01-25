@@ -1,3 +1,4 @@
+import React from "react";
 import { output } from "../utills/output";
 
 
@@ -9,4 +10,4 @@ export function nameForm(event) {
     const firstnamevalue = firstnameInput.value;
     output("Thank You, Your info was submitted.");
 
-}
+  }

@@ -1,13 +1,19 @@
-import { output } from "../utills/output";
+import React, { useState } from "react";
 
 
-export function emailForm(event) {
-    event.preventDefault();
-    const emailForm = event.target;
-    const emailInput = emailForm[0];
-    const emailvalue = emailInput.value;
-    output("Your discount code is GOT20");
-     const promise = makeRequest("https://myServer.com");
-     promise.then(parseResponse);
-     console.log("Your discount code is GOT20"); 
-}
+const [message, setMessage] = useState (
+    <output>("Your discount code is GOT20")</output>    
+ );
+export function handleEmailForm(event) {
+    event.preventDefault()
+    const emailinputs = event.target;
+    const emailInput = emailinputs[0];
+    const emailText = emailInput.value;
+    setMessage(
+        <>
+        {message}
+        <p>You entered {emailText}</p>
+        </>
+       )
+    
+ }

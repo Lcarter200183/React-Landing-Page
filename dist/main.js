@@ -1627,15 +1627,14 @@ function ReactLandingPage() {
     className: "list-group-item"
   }, "Accessories:includes 2 sealing rings and stainless-steel steam rack."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Join Now")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Join our email list and receive a exlusive ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "20% off"), " on your first purchase."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
     onSubmit: _controllers_handleEmailForm__WEBPACK_IMPORTED_MODULE_2__.handleEmailForm
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Get Code:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "email",
     type: "email",
     placeholder: "Email",
     id: "email"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    type: "submit",
-    value: "Submit"
+    type: "submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: center
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
@@ -1653,13 +1652,7 @@ function ReactLandingPage() {
     required: true,
     name: "name",
     type: "name",
-    placeholder: "First Name",
-    id: "name"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    required: true,
-    name: "name",
-    type: "name",
-    placeholder: "Last Name",
+    placeholder: "Name",
     id: "name"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
@@ -1675,8 +1668,7 @@ function ReactLandingPage() {
     placeholder: "Message",
     id: "text"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    type: "submit",
-    value: "Submit"
+    type: "submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "outputTag"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
@@ -1700,10 +1692,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _utills_output__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utills/output */ "./src/utills/output.js");
+
 
 function handleContactForm(event = new Event()) {
   event.preventDefault();
-  return console.log("Thank You, Your info was Submitted!");
+  console.log("Thank You, Your info was Submitted!");
+  (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Thank You, Your info was Submitted!");
 }
 
 /***/ }),
@@ -1720,10 +1715,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _utills_output__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utills/output */ "./src/utills/output.js");
+
 
 function handleEmailForm(event = new Event()) {
   event.preventDefault();
-  return console.log("Your discount code is GOT20");
+  console.log("Your discount Code is GOT20");
+  (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Your discount Code is GOT20");
+}
+
+/***/ }),
+
+/***/ "./src/utills/output.js":
+/*!******************************!*\
+  !*** ./src/utills/output.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+function output(message = "", outputTag = "outputTag", shouldAppend = true) {
+  if (shouldAppend) window[outputTag.innerHTML];else window[outputTag].innerHTML = message;
 }
 
 /***/ })

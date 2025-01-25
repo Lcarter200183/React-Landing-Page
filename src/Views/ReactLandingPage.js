@@ -1,29 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
 import { handleContactForm } from "../controllers/handleContactForm";
 import { handleEmailForm } from "../controllers/handleEmailForm";
 
 export function ReactLandingPage() {
     const center = { width: "fit-content", justifySelf: "center"};
+   
+
     return (
-    <>
+      <>
    <header>
-    <h1><b>Instant Pot Duo Plus</b></h1>
+     <h1><b>Instant Pot Duo Plus</b></h1>
    </header>
-    <main>
+   <main>
 
         <h3><i>Description</i></h3>
-        <div>
-          <p>
+            <div>
+            <p>
             Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one.
             It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options.
             It has 15 Smart Programs to help you get started quickly and easily.
             With a redesigned control panel, you see cooking status at-a-glance, and easily control every step.
-          </p>   
-          </div>
+            </p>   
+            </div>
           
             <br />
         <h4><i>Features</i></h4> 
-           <div className="container">
+            <div className="container">
             <ul className="list-group, list-group-flush">
                <li className="list-group-item">Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, sauté, and keep warm.</li>
                <li className="list-group-item">One-touch Keep Warm program keeps food ready for serving on your schedule.</li>
@@ -47,15 +49,17 @@ export function ReactLandingPage() {
              </div>
              <hr />
            
-          <h2><i>Join Now</i></h2>
+         <h2><i>Join Now</i></h2>
              <p>Join our email list and receive a exlusive <b>20% off</b> on your first purchase.</p>
-          <form  onSubmit={handleEmailForm}>
-         
+            <form onSubmit={handleEmailForm}>
             <div>
-           <input required name="email" type="email" placeholder="Email" id="email" /> 
-            </div>
-           <input type="submit" value="Submit" />
-          </form>
+             Get Code:
+              <br /> 
+            <input  required name="email" type="email" placeholder="Email" id="email"  /> 
+             </div>
+            <input type="submit" />
+            </form>
+          
    
            <br /> 
            <hr />
@@ -77,21 +81,20 @@ export function ReactLandingPage() {
         <h2>Contact Form</h2>
         <form onSubmit={handleContactForm}>
            <div>
-            <input required name="name" type="name" placeholder="First Name" id="name" />
+            <input required name="name" type="name" placeholder="Name" id="name" />
              <br />
-            <input required name="name" type="name" placeholder="Last Name" id="name" />
-            <br />
             <input required name="tel" type="tel" placeholder="###-###-####"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" />
             <br />
             <input required name="text" type="text" placeholder="Message" id="text" />
            </div>
-            <input type="submit" value="Submit" /> 
+            <input type="submit" /> 
          </form>
+         
          <output id="outputTag"></output>
-    </main>
+   </main>
 
          <br />
-    <footer style={{textAlign: "center"}}><pre>Website created by <b>Lydia Carter</b> </pre></footer> 
-    </>
-    );
-    }
+   <footer style={{textAlign: "center"}}><pre>Website created by <b>Lydia Carter</b> </pre></footer> 
+       </>
+       );
+     }
