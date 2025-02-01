@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { handleContactForm } from "../controllers/handleContactForm";
 import { handleEmailForm } from "../controllers/handleEmailForm";
 
 export function ReactLandingPage() {
     const center = { width: "fit-content", justifySelf: "center"};
-   
+    const [message, setMessage] = useState(<></>
+
+    );
 
     return (
       <>
@@ -59,6 +61,8 @@ export function ReactLandingPage() {
              </div>
             <input type="submit" />
             </form>
+            
+            
           
    
            <br /> 
@@ -89,7 +93,7 @@ export function ReactLandingPage() {
            </div>
             <input type="submit" /> 
          </form>
-         
+      
          <output id="outputTag"></output>
    </main>
 

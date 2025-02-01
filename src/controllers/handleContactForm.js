@@ -8,3 +8,4 @@ export function handleContactForm (event = new Event()) {
       output("Thank You, Your info was Submitted!")
     }
     
+<output id="outputTag"></output>

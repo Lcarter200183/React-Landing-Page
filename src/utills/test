@@ -1,7 +1,3 @@
-export function display(message) {
-    document.write(message);
-}
-
 function parseResponse(resolveValue) {
     debugger;
     //THE RESOLVE VALUE WILL BE A FETCH OBJECT
@@ -11,14 +7,13 @@ function parseResponse(resolveValue) {
     output(message);
 }
 
-function getServerResponse(response = new response) {
+function getServerResponse(resolve) {
     debugger;
-    const promise = response.text();
-    promise.then(getJsonString);
+    setTimeout(activateResolve, 5000);
 
     function activateResolve() {
         const response = {
-            message: "",
+            message: "Successfully processed.",
         };
         const resolveValue = JSON.stringify(response);
         resolve(resolveValue);

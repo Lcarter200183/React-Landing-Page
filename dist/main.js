@@ -1585,6 +1585,7 @@ function ReactLandingPage() {
     width: "fit-content",
     justifySelf: "center"
   };
+  const [message, setMessage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null));
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Instant Pot Duo Plus"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Description")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Instant Pot Duo is a multi-functional electric pressure cooker that combines several kitchen appliances into one. It has one-touch controls and stainless steel inner pot that allow you to cook a variety of dishes with versatile cooking options. It has 15 Smart Programs to help you get started quickly and easily. With a redesigned control panel, you see cooking status at-a-glance, and easily control every step.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Features")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
@@ -1700,6 +1701,9 @@ function handleContactForm(event = new Event()) {
   console.log("Thank You, Your info was Submitted!");
   (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Thank You, Your info was Submitted!");
 }
+/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+  id: "outputTag"
+});
 
 /***/ }),
 
@@ -1720,7 +1724,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function handleEmailForm(event = new Event()) {
   event.preventDefault();
-  console.log("Your discount Code is GOT20");
+  console.log("Your discount code is GOT20");
   (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Your discount Code is GOT20");
 }
 
@@ -1737,7 +1741,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   output: () => (/* binding */ output)
 /* harmony export */ });
 function output(message = "", outputTag = "outputTag", shouldAppend = true) {
-  if (shouldAppend) window[outputTag.innerHTML];else window[outputTag].innerHTML = message;
+  const outputElement = document.getElementById("outputTag");
+  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML = message;
 }
 
 /***/ })
