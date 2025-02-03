@@ -11,7 +11,7 @@ function parseResponse(resolveValue) {
     output(message);
 }
 
-function getServerResponse(response = new response) {
+function getServerResponse(resolve) {
     debugger;
     const promise = response.text();
     promise.then(getJsonString);
