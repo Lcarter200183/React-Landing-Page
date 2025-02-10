@@ -1592,17 +1592,17 @@ function ReactLandingPage() {
     className: "list-group, list-group-flush"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "Multiple cooking functions: Pressure cook, slow cook, rice cook, yogurt make, steam, saut\xE9, and keep warm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Multiple cooking functions: Pressure cook slow cook rice cook yogurt make steam saut\xE9 and keep warm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "One-touch Keep Warm program keeps food ready for serving on your schedule."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "15 customizable Smart Programs for quick one-touch cooking: pressure cook, soup, broth, cake, egg, slow cook, saut\xE9, rice, bean, grain, porridge, oatmeal, sterilize, yogurt and sous vide."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "15 customizable Smart Programs for quick one-touch cooking: pressure cook soup broth cake egg slow cook saut\xE9 rice bean grain porridge oatmeal sterilize yogurt and sous vide."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Digital display and controls: Easy-to-use interface with customizable programs for different types of food."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "Contemporary black-on-white display is easy-to-read, shows full cooking progress and includes dedicated Start button."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Contemporary black-on-white display is easy-to-read shows full cooking progress and includes dedicated Start button."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "Separate Pressure and Temperature indicators to view at-a-glance, plus dual Fahrenheit and Celsius indicators."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Separate Pressure and Temperature indicators to view at-a-glance plus dual Fahrenheit and Celsius indicators."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Steel inner pot: Dishwasher-safe pot with a tri-ply bottom for even heat distribution."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
@@ -1610,17 +1610,17 @@ function ReactLandingPage() {
     className: "list-group-item"
   }, "Stainless-steel (18/8) inner pot with tri-ply bottom for perfect saut\xE9ing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "Intuitive remote steam release button makes venting simple and stress-free, plus automatically resets when lid is closed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Intuitive remote steam release button makes venting simple and stress-free plus automatically resets when lid is closed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Quick release valve: Allows for rapid steam release when needed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "Safety features: Includes safety locking lid, pressure release mechanisms, and overheat protection."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Safety features: Includes safety locking lid, pressure release mechanisms and overheat protection."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Anti-spin design keeps inner pot in place for easy saut\xE9ing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Up to 70% faster and more energy efficient than traditional cooking methods."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
-  }, "10+ proven safety features, including Overheat Protection\u2122 and safe locking lid."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "10+ proven safety features including Overheat Protection\u2122 and safe locking lid."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Dishwasher-safe lid and inner pot for quick and easy clean-up."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
@@ -1636,7 +1636,9 @@ function ReactLandingPage() {
     id: "email"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "submit"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: center
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
     width: "560",
