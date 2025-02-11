@@ -1726,8 +1726,8 @@ __webpack_require__.r(__webpack_exports__);
 
 function handleEmailForm(event = new Event()) {
   event.preventDefault();
-  console.log("Your discount code is GOT20");
-  (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Your discount Code is GOT20");
+  console.log("Your Email was Submitted. Your discount code is GOT20");
+  (0,_utills_output__WEBPACK_IMPORTED_MODULE_1__.output)("Your Email was Submitted. Your discount Code is GOT20", "outputTag2");
 }
 
 /***/ }),
@@ -1743,7 +1743,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   output: () => (/* binding */ output)
 /* harmony export */ });
 function output(message = "", outputTag = "outputTag", shouldAppend = true) {
-  const outputElement = document.getElementById("outputTag");
+  debugger;
+  const outputElement = document.getElementById(outputTag);
   if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML = message;
 }
 
